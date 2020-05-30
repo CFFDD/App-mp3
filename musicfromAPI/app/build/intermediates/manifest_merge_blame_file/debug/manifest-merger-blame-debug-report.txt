@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.musicfromapi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:4:22-64
+12    <!-- 申请SD卡写入权限 -->
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:6:5-81
+13-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:6:22-78
+14
+15    <!-- 拦截号码权限 -->
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:9:5-74
+16-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:9:22-72
+17
+18    <application
+18-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:12:5-30:19
+19        android:allowBackup="true"
+19-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\29723\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:15:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:18:9-40
+28        <activity android:name="com.example.musicfromapi.mp3new" />
+28-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:20:9-43
+28-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:20:19-41
+29        <activity android:name="com.example.musicfromapi.mp3" >
+29-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:21:9-28:20
+29-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:21:19-38
+30            <intent-filter>
+30-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:24:17-69
+31-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:26:17-77
+33-->D:\Desktop\AndroidTest\musicfromAPI\musicfromAPI\app\src\main\AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>
