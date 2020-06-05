@@ -1,0 +1,27 @@
+简单注释一下各个类实现的功能：
+mp3new                  输入Url点击播放
+mP3                     输入Url实现播放、暂停、重播
+getUrl                  点击获取指定歌曲ID的Url(播放地址)
+data_compilation        一个数据集合类，存放获得的数据
+
+Song                    存放歌曲信息的类
+MusicUtils              一个用于获取信息并写入的工具类
+
+
+
+
+
+
+1----------------------------------------------------------------------------------
+报错:Attempt to call getDuration without a valid mediaplayer
+这个报错说明还没有设置数据源或数据源不可用（但其实不影响播放，只是进度条设置失败了）
+如果报这个错，且单击按钮无法播放->应该是服务器关闭了，刷新一下就好
+
+2------------------------------------------------------------------------------------
+JSONObject与JSONArray的区别:
+{}包裹的是JSONObject，[]包裹的是JSONArray
+以getUrl.class为例，在解析时，我们先获取到一个JSONObject，也就是被{}包裹的数据包：
+{"code":200,"data":{"id":5436712,"url":"http://vodkgeyttp8.vod.126.net/cloudmusic/MjQ3NDQ3MjUw/89a6a279dc2acfcd068b45ce72b1f560/
+533e4183a709699d566180ed0cd9abe9.mp4?wsSecret=6f189dc34f3025b62cc7b4a9ba34df08&wsTime=1591341714",
+"r":480,"size":31157772,"md5":"","code":200,"expi":3600,"fee":0,"mvFee":0,"st":0,"msg":""}}
+然后从其中获取以data为关键字的JSONArray数组，并用循环的方式读取数组信息，

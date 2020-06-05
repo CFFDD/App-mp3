@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_timg.jpg.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\drawable-v24\\timg.jpg"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\layout_mp3.xml.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\layout\\mp3.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_nocolor.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\drawable-v24\\nocolor.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\layout_geturl.xml.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\layout\\geturl.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_begin.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\drawable-v24\\begin.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_stop.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\drawable-v24\\stop.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_replay.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\drawable-v24\\replay.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\layout_mp3new.xml.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\layout\\mp3new.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    }
+]

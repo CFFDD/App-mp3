@@ -1,0 +1,4 @@
+#Fri Jun 05 16:52:53 CST 2020
+base.0=D\:\\Desktop\\AndroidTest\\musicfromAPI\\musicfromAPI\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
