@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lrc"
+    >
+
+
+    <com.example.library.view.LrcView
+        android:id="@+id/lrcView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lineSpacing="40dp"
+        app:textSize="18sp"
+        app:lrcTextColor="@color/colorPrimary"
+        app:highLineTextColor="@color/highTextColor"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

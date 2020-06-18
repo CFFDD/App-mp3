@@ -1,0 +1,10 @@
+搜索                  /search?keywords= 海阔天空
+
+获取音乐url          /song/url?id=33894312  或 /song/url?id=405998841,33894312
+
+获取歌词            /lyric?id=33894312
+
+获取歌曲详情          /song/detail?ids=347230
+                   可用内容：    MV id
+
+
