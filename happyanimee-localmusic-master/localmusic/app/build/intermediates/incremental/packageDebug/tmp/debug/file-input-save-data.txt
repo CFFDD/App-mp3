@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Jun 12 21:05:59 CST 2020
+0.baseType=DIRECTORY
+0.base=D\:\\Desktop\\AndroidTest\\fromInternet\\happyanimee-localmusic-master\\localmusic\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

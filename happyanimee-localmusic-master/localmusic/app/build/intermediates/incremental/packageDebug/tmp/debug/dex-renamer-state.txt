@@ -1,0 +1,4 @@
+#Thu Jun 18 20:56:10 CST 2020
+base.0=D\:\\Desktop\\AndroidTest\\fromInternet\\happyanimee-localmusic-master\\localmusic\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
