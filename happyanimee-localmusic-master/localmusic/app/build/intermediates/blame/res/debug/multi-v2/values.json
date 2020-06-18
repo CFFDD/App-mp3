@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Desktop\\AndroidTest\\fromInternet\\happyanimee-localmusic-master\\localmusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Desktop\\App-mp3-finish_ShowMusicFromInter\\App-mp3-finish_ShowMusicFromInter\\happyanimee-localmusic-master\\localmusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\29723\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\95a7510ec00e2e5d270a9616861bdc78\\res\\values\\values.xml",
@@ -20,6 +20,42 @@
                         "endLines": "184,185,546,547,548,549,550,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,589,590,597,598,602,603,604,605,611,643,1968,1972,1973,1977,1978,2115,2116",
                         "endColumns": "68,62,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,33,34,34,69,70,116,12,109,12,128,71,66",
                         "endOffsets": "9624,9687,49486,49554,49626,49696,49757,50988,51049,51111,51175,51237,51298,51366,51466,51526,51592,51665,51734,51791,51843,51905,52430,52506,52846,52881,53073,53107,53142,53177,53522,55813,143862,144063,144173,144374,144503,155401,155468"
+                    }
+                },
+                {
+                    "source": "D:\\Desktop\\App-mp3-finish_ShowMusicFromInter\\App-mp3-finish_ShowMusicFromInter\\happyanimee-localmusic-master\\localmusic\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "368"
+                    },
+                    "to": {
+                        "startLines": "649",
+                        "startColumns": "4",
+                        "startOffsets": "56260",
+                        "endLines": "654",
+                        "endColumns": "12",
+                        "endOffsets": "56574"
+                    }
+                },
+                {
+                    "source": "D:\\Desktop\\App-mp3-finish_ShowMusicFromInter\\App-mp3-finish_ShowMusicFromInter\\happyanimee-localmusic-master\\localmusic\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,5,2,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "153,199,55,102",
+                        "endColumns": "45,45,46,50",
+                        "endOffsets": "194,240,97,148"
+                    },
+                    "to": {
+                        "startLines": "159,160,161,162",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "8083,8129,8175,8222",
+                        "endColumns": "45,45,46,50",
+                        "endOffsets": "8124,8170,8217,8268"
                     }
                 },
                 {
@@ -42,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Desktop\\AndroidTest\\fromInternet\\happyanimee-localmusic-master\\localmusic\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\Desktop\\App-mp3-finish_ShowMusicFromInter\\App-mp3-finish_ShowMusicFromInter\\happyanimee-localmusic-master\\localmusic\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -56,42 +92,6 @@
                         "startOffsets": "55646",
                         "endColumns": "47",
                         "endOffsets": "55689"
-                    }
-                },
-                {
-                    "source": "D:\\Desktop\\AndroidTest\\fromInternet\\happyanimee-localmusic-master\\localmusic\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "368"
-                    },
-                    "to": {
-                        "startLines": "649",
-                        "startColumns": "4",
-                        "startOffsets": "56260",
-                        "endLines": "654",
-                        "endColumns": "12",
-                        "endOffsets": "56574"
-                    }
-                },
-                {
-                    "source": "D:\\Desktop\\AndroidTest\\fromInternet\\happyanimee-localmusic-master\\localmusic\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,5,2,3",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "153,199,55,102",
-                        "endColumns": "45,45,46,50",
-                        "endOffsets": "194,240,97,148"
-                    },
-                    "to": {
-                        "startLines": "159,160,161,162",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "8083,8129,8175,8222",
-                        "endColumns": "45,45,46,50",
-                        "endOffsets": "8124,8170,8217,8268"
                     }
                 },
                 {

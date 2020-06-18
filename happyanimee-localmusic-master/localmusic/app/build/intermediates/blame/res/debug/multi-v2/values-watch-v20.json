@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Desktop\\AndroidTest\\fromInternet\\happyanimee-localmusic-master\\localmusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "D:\\Desktop\\App-mp3-finish_ShowMusicFromInter\\App-mp3-finish_ShowMusicFromInter\\happyanimee-localmusic-master\\localmusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\29723\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\5ec90c380dc7a374ecbd896c1d38a126\\res\\values-watch-v20\\values-watch-v20.xml",

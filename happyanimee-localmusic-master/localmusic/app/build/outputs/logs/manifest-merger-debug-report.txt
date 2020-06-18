@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\5ec90c380dc7a374ecbd896c1d38a126\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f0044e9c5e6b4a3c0d6a708d6335cbb3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\3d009bf351c2f2d66789ed50805a663f\AndroidManifest.xml:17:1-22:12
@@ -18,73 +18,73 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\29723\.gradle\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1116e48e3f880850cdbc41baaf7d39ef\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\04c57c8b7cafbc0bb3216af377035be9\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b089f1184ad3318e921796d556f16810\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
-		INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
-		INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:4:5-80
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:4:5-80
 	android:name
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:4:22-78
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:4:22-78
 uses-permission#android.permission.INTERNET
-ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:11:5-74
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:11:5-74
 	android:name
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:11:22-72
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:11:22-72
 application
-ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:14:5-30:19
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:14:5-30:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f0044e9c5e6b4a3c0d6a708d6335cbb3\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f0044e9c5e6b4a3c0d6a708d6335cbb3\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:20:9-40
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:20:9-40
 activity#com.animee.localmusic.MainActivity
-ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:21:9-49
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:21:9-49
 	android:name
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:21:19-47
-activity#com.animee.localmusic.MainActivity_IntMp3_2
-ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:23:9-29:20
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:21:19-47
+activity#com.animee.localmusic.MainActivity_IntMp3
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:23:9-29:20
 	android:name
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:23:19-56
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:23:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:27:27-74
 uses-sdk
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\5ec90c380dc7a374ecbd896c1d38a126\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\5ec90c380dc7a374ecbd896c1d38a126\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f0044e9c5e6b4a3c0d6a708d6335cbb3\AndroidManifest.xml:5:5-7:41
@@ -113,13 +113,13 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\29723\.gradle\caches
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\04c57c8b7cafbc0bb3216af377035be9\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b089f1184ad3318e921796d556f16810\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b089f1184ad3318e921796d556f16810\AndroidManifest.xml:20:5-44
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
-INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
-		ADDED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Desktop\AndroidTest\fromInternet\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
