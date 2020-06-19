@@ -1,0 +1,189 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\71ebd74a9f855c8ca656ad8bf6cfb5b6\AndroidManifest.xml:17:1-22:12
+MERGED from [:library] D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\library\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.jsyjst:Yuan-LrcView:LrcView-1.2] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\Yuan-LrcView-LrcView-1.2.aar\12e6a8e3f2e838438c5acfa73645634d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\88ca24d3924d8cca00e641541aaf16dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8255a2bbac9755561fc0afe510f566bf\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\e03acb51700a72dc6f8063bd377c4a74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\e01b7a258ebab300dc156e35dca947ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d8706e753cdad1db4ea8b41426538c80\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ca3e5d2a708b1fb59b32f9e84410f20b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\72360f51ed3018fa3f212e116eedd4df\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c02c6c53fa06230bb57fe65c81dd85a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1f09e15aa07008f1f9126797285bd4de\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4c388746197826c26f0c89e27a9f350a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\dca2e47d6c32c13d3435031a31801a75\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a766f15d9dc2a07be2d0b9b01f9e985c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\1eeae47443e345062e5746b6b9bdef5b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b5a97fa7051da726e51293cb91d4ea95\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\00d64de519f3d5861ad338e4bef8bdfb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\bf4a6803174133474c0a1ec002799db0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d224726376cdd829452e301a3b14a7cc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2ef16e69306ef3dc1d82f08c53420b09\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e59e1a6e4947f590022b08998c01f030\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ce47ce7591e8761313546e6a392dffcd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\73b4fdf7b046a400fc4efb8847f1b903\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8a4d1a52b77fac618a386a49523cba63\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\a7ffeeafba3978f6165eb3bc956501e4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\ee0b10a37d6edcd8de93cc10d4e33384\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\68a6f53eb0530c139313e11c28f9b22b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\69534af1ac08a9d90a54f77e86a6057c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f6927935705d75053ea59ab35095beb0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\92427514bc9a19a6d92ce6a930b5376e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ad592155f7b73dde62d97dc5555be9a6\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:11:22-72
+application
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:14:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8255a2bbac9755561fc0afe510f566bf\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8255a2bbac9755561fc0afe510f566bf\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2ef16e69306ef3dc1d82f08c53420b09\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2ef16e69306ef3dc1d82f08c53420b09\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e59e1a6e4947f590022b08998c01f030\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e59e1a6e4947f590022b08998c01f030\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2ef16e69306ef3dc1d82f08c53420b09\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.animee.localmusic.MainActivity
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:21:9-49
+	android:name
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:21:19-47
+activity#com.animee.localmusic.MainActivity_IntMp3
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:22:9-56
+	android:name
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:22:19-54
+activity#com.animee.localmusic.lrc
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:23:9-29:20
+	android:name
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:23:19-38
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml:27:27-74
+uses-sdk
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\71ebd74a9f855c8ca656ad8bf6cfb5b6\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\71ebd74a9f855c8ca656ad8bf6cfb5b6\AndroidManifest.xml:20:5-43
+MERGED from [:library] D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\library\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:library] D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\library\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jsyjst:Yuan-LrcView:LrcView-1.2] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\Yuan-LrcView-LrcView-1.2.aar\12e6a8e3f2e838438c5acfa73645634d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jsyjst:Yuan-LrcView:LrcView-1.2] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\Yuan-LrcView-LrcView-1.2.aar\12e6a8e3f2e838438c5acfa73645634d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\88ca24d3924d8cca00e641541aaf16dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\88ca24d3924d8cca00e641541aaf16dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8255a2bbac9755561fc0afe510f566bf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8255a2bbac9755561fc0afe510f566bf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\e03acb51700a72dc6f8063bd377c4a74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\e03acb51700a72dc6f8063bd377c4a74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\e01b7a258ebab300dc156e35dca947ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\e01b7a258ebab300dc156e35dca947ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d8706e753cdad1db4ea8b41426538c80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d8706e753cdad1db4ea8b41426538c80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ca3e5d2a708b1fb59b32f9e84410f20b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ca3e5d2a708b1fb59b32f9e84410f20b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\72360f51ed3018fa3f212e116eedd4df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\72360f51ed3018fa3f212e116eedd4df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c02c6c53fa06230bb57fe65c81dd85a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c02c6c53fa06230bb57fe65c81dd85a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1f09e15aa07008f1f9126797285bd4de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1f09e15aa07008f1f9126797285bd4de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4c388746197826c26f0c89e27a9f350a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4c388746197826c26f0c89e27a9f350a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\dca2e47d6c32c13d3435031a31801a75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\dca2e47d6c32c13d3435031a31801a75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a766f15d9dc2a07be2d0b9b01f9e985c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a766f15d9dc2a07be2d0b9b01f9e985c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\1eeae47443e345062e5746b6b9bdef5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\1eeae47443e345062e5746b6b9bdef5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b5a97fa7051da726e51293cb91d4ea95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b5a97fa7051da726e51293cb91d4ea95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\00d64de519f3d5861ad338e4bef8bdfb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\00d64de519f3d5861ad338e4bef8bdfb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\bf4a6803174133474c0a1ec002799db0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\bf4a6803174133474c0a1ec002799db0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d224726376cdd829452e301a3b14a7cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d224726376cdd829452e301a3b14a7cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2ef16e69306ef3dc1d82f08c53420b09\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2ef16e69306ef3dc1d82f08c53420b09\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e59e1a6e4947f590022b08998c01f030\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e59e1a6e4947f590022b08998c01f030\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ce47ce7591e8761313546e6a392dffcd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ce47ce7591e8761313546e6a392dffcd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\73b4fdf7b046a400fc4efb8847f1b903\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\73b4fdf7b046a400fc4efb8847f1b903\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8a4d1a52b77fac618a386a49523cba63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8a4d1a52b77fac618a386a49523cba63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\a7ffeeafba3978f6165eb3bc956501e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\a7ffeeafba3978f6165eb3bc956501e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\ee0b10a37d6edcd8de93cc10d4e33384\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\ee0b10a37d6edcd8de93cc10d4e33384\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\68a6f53eb0530c139313e11c28f9b22b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\68a6f53eb0530c139313e11c28f9b22b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\69534af1ac08a9d90a54f77e86a6057c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\69534af1ac08a9d90a54f77e86a6057c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f6927935705d75053ea59ab35095beb0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f6927935705d75053ea59ab35095beb0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\92427514bc9a19a6d92ce6a930b5376e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\92427514bc9a19a6d92ce6a930b5376e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ad592155f7b73dde62d97dc5555be9a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\29723\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ad592155f7b73dde62d97dc5555be9a6\AndroidManifest.xml:20:5-44
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\App-mp3-finish_ShowMusicFromInter\App-mp3-finish_ShowMusicFromInter\happyanimee-localmusic-master\localmusic\app\src\main\AndroidManifest.xml

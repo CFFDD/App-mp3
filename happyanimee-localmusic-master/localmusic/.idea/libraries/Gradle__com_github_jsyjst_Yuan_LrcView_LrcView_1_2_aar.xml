@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jsyjst:Yuan-LrcView:LrcView-1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Yuan-LrcView-LrcView-1.2.aar/12e6a8e3f2e838438c5acfa73645634d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Yuan-LrcView-LrcView-1.2.aar/12e6a8e3f2e838438c5acfa73645634d/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jsyjst/Yuan-LrcView/LrcView-1.2/92ad385fd6b44fdeeabdcb7c36afe96f7f3f7c84/Yuan-LrcView-LrcView-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

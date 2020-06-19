@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LrcView"><attr format="color|reference|integer" name="highLineTextColor"/><attr format="color|reference|integer" name="lrcTextColor"/><attr format="dimension" name="lineSpacing"/><attr format="dimension" name="textSize"/></declare-styleable>
+    <string name="app_name">library</string>
+</resources>
