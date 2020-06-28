@@ -3,6 +3,8 @@ package com.example.login_formusic;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -17,6 +19,7 @@ import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -25,15 +28,17 @@ import java.net.URL;
 public class Login extends AppCompatActivity implements View.OnClickListener{
     private static final String TAG = "MainActivity";
     private static String re=null;
+    private static String[] uData = new String[3];
     EditText phoneTV,pwdTV;
     Button loginbtn,registerbtn,resetbtn;
 
-
+    String user = null;
+    String pwd = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.login);
         bindID();
     }
 
@@ -49,21 +54,23 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
 
 
     }
+    private void SetString() {
+        user = phoneTV.getText().toString().trim();
+        pwd = pwdTV.getText().toString().trim();
+    }
+
 
     public void onClick(View v) {
         switch (v.getId()) {
 
             case R.id.loginbtn:
-                String user = phoneTV.getText().toString().trim();
-                String pwd = pwdTV.getText().toString().trim();
+                SetString();
                 String restring = login(user,pwd);
                 Log.i(TAG, "restring==="+restring);
                 if (user.length() == 11) {
                     if(restring == "成功登陆"){
                         Log.i(TAG, "if成功登陆");
-                        Intent intent = new Intent();
-                        intent.setClass(Login.this, function.class);
-                        startActivity(intent);
+                        ReadytoFunction();
                     }else{
                         Log.i(TAG, "if失败,msg==="+restring);
                         if (re == null) {
@@ -93,6 +100,98 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
         }
     }
 
+    private void ReadytoFunction() {
+            UserBean userBean =new UserBean();
+            getuserdata(user,pwd,userBean);
+            Intent intent = new Intent();
+            intent.setClass(Login.this, function.class);
+            Bundle bundle = new Bundle();
+            bundle.putInt("uid",userBean.uid);        //用户ID
+            bundle.putParcelable("avatar",userBean.avatar);              //用户头像
+            bundle.putString("nikename",userBean.nikename);           //用户昵称
+            intent.putExtras(bundle);
+            Log.i(TAG, "准备进行页面跳转");
+            startActivity(intent);
+
+    }
+
+    private static void getuserdata(final String user, final String pwd,final UserBean userBean ) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+
+                    HttpURLConnection connection;
+                    //URL url = new URL("http://api.5288z.com/weixin/musicapi.php?q="+finalTitle);
+                    URL url = new URL("http://192.168.1.108:3000/login/cellphone?phone=" + user + "&password=" + pwd);        //本地IP经常变动，记得每次测试前先看看IP
+                    //URL url = new URL("http://192.168.137.1:3000/lyric?id="+songid);
+                    Log.i(TAG, "开始建立关于获取用户数据的连接");      //用用户ID可以获取用户信息
+                    Log.i(TAG, "url===" + url);
+                    connection = (HttpURLConnection) url.openConnection();
+                    connection.setConnectTimeout(60 * 1000);
+                    connection.setReadTimeout(60 * 1000);
+                    connection.connect();
+                    Log.i(TAG, "连接上了");
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+                    Log.i(TAG, "reader====" + reader);
+                    String s;
+                    s = reader.readLine();
+                    //Log.i(TAG, "S>>>>>>" + s);
+                    if (s != null) {
+                        //Log.i(TAG, "S>>>>>>" + s);         //截取S的前10个字符
+                        //s = s.replace("\\","");//去掉\\
+                        try {
+                            Log.i(TAG, "开始try");                     //开始try
+                            JSONObject object = new JSONObject(s);
+                            String string1 = object.getString("code");
+                            int code = Integer.valueOf(string1);
+                            Log.i(TAG, "code====" + code);
+                            JSONObject profile =object.getJSONObject("profile");
+
+                            userBean.uid = profile.getInt("userId");            //用户ID
+                            String avatarUrl =profile.getString("avatarUrl");   //用户头像 图片URL
+                            userBean.nikename=profile.getString("nickname");   //用户昵称
+                            userBean.avatar = getBitmap(avatarUrl);
+
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    } else {
+                        Log.i(TAG, "这个S是空的");
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static Bitmap getBitmap(String coverurl) {
+        try {
+            Log.e("coverurl==",coverurl);
+            URL url = new URL(coverurl);
+            Log.i(TAG, "coverurl=="+coverurl);
+            Log.i(TAG, "开始建立关于获取图片数据的连接");
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setDoInput(true);
+            connection.connect();
+            InputStream input = connection.getInputStream();
+            Bitmap myBitmap = BitmapFactory.decodeStream(input);
+            Log.i(TAG,"i have a Bitmap"+ myBitmap);
+            //input.close();        原文里没有这一句
+            return myBitmap;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
     private static String login(final String user, final String pwd) {
         new Thread(new Runnable() {
             @Override
@@ -114,9 +213,9 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
                     Log.i(TAG, "reader====" + reader);
                     String s;
                     s = reader.readLine();
-                    Log.i(TAG, "S>>>>>>" + s);
+                    //Log.i(TAG, "S>>>>>>" + s);
                     if (s != null) {
-                        Log.i(TAG, "S>>>>>>" + s);         //截取S的前10个字符
+                        //Log.i(TAG, "S>>>>>>" + s);         //截取S的前10个字符
                         //s = s.replace("\\","");//去掉\\
                         try {
                             Log.i(TAG, "开始try");                     //开始try

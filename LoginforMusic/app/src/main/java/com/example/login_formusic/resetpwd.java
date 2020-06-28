@@ -79,12 +79,18 @@ public class resetpwd extends AppCompatActivity implements View.OnClickListener{
             case R.id.resetBtn:
                 setString2();
                 if (equals(pwd2) == equals(confirm2)) {         //直接使用  pwd2 == confirm2  会出现  密码与确认密码不一致  的错误
-                    re = resetpwd(phone2, pwd2, vercode2);
+                    re = checkvercode(phone2,vercode2);
                     Log.i(TAG, "restring===" + re);
-                    if (re == null) {
-                        Toast.makeText(resetpwd.this, "验证码错误，或手机号格式不正确", Toast.LENGTH_LONG).show();
-                    }else{
-                        Toast.makeText(resetpwd.this, re, Toast.LENGTH_LONG).show();
+                    if(re == "验证码正确"){
+                        re = resetpwd(phone2, pwd2, vercode2);
+                        Log.i(TAG, "restring===" + re);
+                        if (re == null) {
+                            Toast.makeText(resetpwd.this, "手机号格式不正确", Toast.LENGTH_LONG).show();
+                        }else{
+                            Toast.makeText(resetpwd.this, re, Toast.LENGTH_LONG).show();
+                        }
+                    } else{
+                        Toast.makeText(resetpwd.this, "验证码错误或手机号不正确", Toast.LENGTH_LONG).show();
                     }
                 } else {
                     Toast.makeText(resetpwd.this, "密码与确认密码不一致！！", Toast.LENGTH_LONG).show();
@@ -144,6 +150,62 @@ public class resetpwd extends AppCompatActivity implements View.OnClickListener{
                             Log.i(TAG, "code====" + code);
                             if (code == 200) {
                                 re ="成功发送验证码";
+                            } else {
+                                re = object.getString("message");
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    } else {
+                        Log.i(TAG, "这个S是空的");
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                Log.i(TAG, "re====" + re);
+            }
+        }).start();
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return re;
+    }
+
+    private static String checkvercode(final String phone,final String vercode) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+
+                    HttpURLConnection connection;
+                    //URL url = new URL("http://api.5288z.com/weixin/musicapi.php?q="+finalTitle);
+                    URL url = new URL("http://192.168.1.108:3000/captcha/sent?phone=" + phone +"&captcha=" +vercode);        //本地IP经常变动，记得每次测试前先看看IP
+                    //URL url = new URL("http://192.168.137.1:3000/lyric?id="+songid);
+                    Log.i(TAG, "开始建立关验证验证码的连接");
+                    Log.i(TAG, "url===" + url);
+                    connection = (HttpURLConnection) url.openConnection();
+                    connection.setConnectTimeout(60 * 1000);
+                    connection.setReadTimeout(60 * 1000);
+                    connection.connect();
+                    Log.i(TAG, "连接上了");
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+                    Log.i(TAG, "reader>>>>>>" + reader);
+                    String s;
+                    s = reader.readLine();
+                    Log.i(TAG, "S>>>>>>" + s);
+                    if (s != null) {
+                        Log.i(TAG, "S>>>>>>" + s);         //截取S的前10个字符
+                        //s = s.replace("\\","");//去掉\\
+                        try {
+                            Log.i(TAG, "开始try");                     //开始try
+                            JSONObject object = new JSONObject(s);
+                            String string1 = object.getString("code");
+                            int code = Integer.valueOf(string1);
+                            Log.i(TAG, "code====" + code);
+                            if (code == 200) {
+                                re ="验证码正确";
                             } else {
                                 re = object.getString("message");
                             }

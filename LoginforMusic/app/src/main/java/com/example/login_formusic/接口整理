@@ -6,6 +6,12 @@ ip:192.168.1.108            18650859926
 验证验证码       /captcha/verify?phone=13xxx&captcha=1597
                 得到参数code=200即验证成功
 
+用户登录        /login/cellphone?phone=xxx&password=yyy
+                得到code！=200 即为失败
+                account:
+                    id      用户id
+
+
 注册             /register/cellphone?phone=13xxx&password=xxxxx&captcha=1234&nickname=binary1345
                 得到code！=200 即为失败    失败原因参见msg字段
 
@@ -43,6 +49,9 @@ ip:192.168.1.108            18650859926
                             //description         歌单描述
                             coverImgUrl         歌单封面
                             trackCount          歌曲数
+                            id                  歌单id
+                            name                歌单名称
+
 
 歌单详情        /playlist/detail?id=2763629424
                 包含内容：
