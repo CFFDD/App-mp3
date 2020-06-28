@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.showlrc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml
+10
+11    <!-- 权限申明 -->
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:7:5-67
+13-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:7:22-64
+14    <!-- 申请SD卡写入权限 -->
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:6:5-81
+15-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:6:22-78
+16
+17    <!-- 拦截号码权限 -->
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:12:5-74
+18-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:12:22-72
+19
+20    <application
+20-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:15:5-32:19
+21        android:allowBackup="true"
+21-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:16:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.0] C:\Users\29723\.gradle\caches\transforms-2\files-2.1\45ca2b27b5a8d2aecb4ee89b6457658f\core-1.0.0\AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:17:9-43
+25        android:label="@string/app_name"
+25-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:18:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:19:9-54
+27        android:supportsRtl="true"
+27-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:20:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:21:9-40
+30        <activity android:name="com.example.showlrc.showlrc.MusicActivity" />
+30-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:22:9-58
+30-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:22:19-56
+31           //进度条
+32        <activity android:name="com.example.showlrc.localmusic.MainActivity" />
+32-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:23:9-60
+32-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:23:19-58
+33            //本地歌曲
+34        <activity android:name="com.example.showlrc.showlrc.lrc" />
+34-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:24:9-48
+34-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:24:19-46
+35                      //歌词展示
+36        <activity android:name="com.example.showlrc.MainActivity_IntMp3" >
+36-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:25:9-31:20
+36-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:25:19-54
+37     //搜索页面
+38            <intent-filter>
+38-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:26:13-30:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:27:17-69
+39-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:27:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:29:17-77
+41-->D:\Desktop\AndroidTest\ShowLrc\app\src\main\AndroidManifest.xml:29:27-74
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>

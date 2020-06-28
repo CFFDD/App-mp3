@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#858181">
+
+
+    <TextView
+        android:id="@+id/loginTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:text="登录" />
+
+
+    <RelativeLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        >
+
+        <EditText
+            android:id="@+id/phonenumberTV"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="手机号"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+             />
+
+        <EditText
+            android:id="@+id/passwordTV"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phonenumberTV"
+            android:layout_alignStart="@+id/phonenumberTV"
+            android:layout_alignLeft="@+id/phonenumberTV"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="密码"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="@+id/phonenumberTV"
+            app:layout_constraintTop_toBottomOf="@+id/phonenumberTV"
+            />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordTV"
+            android:layout_alignStart="@+id/phonenumberTV"
+            android:layout_alignLeft="@+id/phonenumberTV"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/shape2"
+            android:text="Button"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/passwordTV"
+            app:layout_constraintTop_toBottomOf="@+id/passwordTV"
+            tools:text="登录" />
+
+        <RelativeLayout
+            android:id="@+id/resetORregist"
+            android:layout_width="300dp"
+            android:layout_height="26dp"
+            android:layout_below="@+id/loginbtn"
+            android:layout_alignStart="@+id/loginbtn"
+            android:layout_alignLeft="@+id/loginbtn"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="@+id/loginbtn"
+            app:layout_constraintTop_toBottomOf="@+id/loginbtn">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:id="@+id/resetbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:background="@android:color/transparent"
+                android:text="忘记密码？" />
+
+
+
+            <Button
+                android:id="@+id/registerbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:textSize="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:background="@android:color/transparent"
+                android:text="立即注册" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
