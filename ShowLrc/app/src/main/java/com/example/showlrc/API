@@ -1,0 +1,16 @@
+搜索                  /search?keywords= 海阔天空
+		可以获取：歌曲ID，歌曲名，歌手ID，歌手名，专辑ID，
+			专辑名，[歌曲时长:duration]
+
+获取音乐url          /song/url?id=33894312  或 /song/url?id=405998841,33894312
+
+获取歌词            /lyric?id=33894312
+
+获取歌曲详情          /song/detail?ids=347230
+                   	可用内容：    MV id
+
+获取专辑内容		/album?id=36165256
+			可用内容：专辑封面
+
+http://192.168.1.108:3000
+
