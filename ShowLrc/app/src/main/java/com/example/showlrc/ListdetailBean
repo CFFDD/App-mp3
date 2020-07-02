@@ -1,0 +1,89 @@
+package com.example.showlrc.songlistdetails;
+
+import java.io.Serializable;
+
+public class ListdetailBean implements Serializable {
+
+    public int song_listidbyme;
+    public String songid;
+    public String songname;
+    public String singer;
+    public String path;
+    public String lyric;
+    public int length;
+
+
+    public ListdetailBean(int song_listidbyme,String songid, String songname, String singer) {
+        this.song_listidbyme = song_listidbyme;
+        this.songid = songid;
+        this.songname = songname;
+        this.singer = singer;
+    }
+
+
+    public ListdetailBean(int song_listidbyme, String songid, String songname, String singer, int length) {
+        this.song_listidbyme = song_listidbyme;
+        this.songid = songid;
+        this.songname = songname;
+        this.singer = singer;
+        this.length = length;
+    }
+
+    public int getSong_listidbyme() {
+        return song_listidbyme;
+    }
+
+    public void setSong_listidbyme(int song_listidbyme) {
+        this.song_listidbyme = song_listidbyme;
+    }
+
+    public String getSongid() {
+        return songid;
+    }
+
+    public void setSongid(String songid) {
+        this.songid = songid;
+    }
+
+    public String getSongname() {
+        return songname;
+    }
+
+    public void setSongname(String songname) {
+        this.songname = songname;
+    }
+
+    public String getSinger() {
+        return singer;
+    }
+
+    public void setSinger(String singer) {
+        this.singer = singer;
+    }
+
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+
+    public String getLyric() {
+        return lyric;
+    }
+
+    public void setLyric(String lyric) {
+        this.lyric = lyric;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+}

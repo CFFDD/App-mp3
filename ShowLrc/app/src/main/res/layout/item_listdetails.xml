@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:com.android.support="http://schemas.android.com/tools"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    app:contentPadding="10dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/song_idbyme_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:textSize="24dp"
+            />
+
+        <TextView
+            android:id="@+id/songname_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/song_idbyme_details"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp"
+            />
+        <TextView
+            android:id="@+id/singer_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/songname_details"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@+id/songname_details"
+            android:textSize="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/deletefromlist_details"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/delete" />
+
+        <ImageButton
+            android:id="@+id/addtolove_details"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/deletefromlist_details"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/love_before" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

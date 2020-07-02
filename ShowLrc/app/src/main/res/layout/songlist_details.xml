@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#302D2D"
+    >
+
+    <RelativeLayout
+        android:id="@+id/RL_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:id="@+id/ibtm_back_reset_songlist"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/albumname_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/ibtm_back_reset_songlist"
+            android:layout_toRightOf="@+id/ibtm_back_reset_songlist"
+            android:text="TextView"
+            android:textSize="35dp"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/detailRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RL_top"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/albumIV_songlist"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/albumTV_songlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/albumIV_songlist"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/albumTV_songlist"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/albumTV_songlist">
+
+            <TextView
+                android:id="@+id/craetorTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:text="歌单创建者："/>
+
+            <TextView
+                android:id="@+id/craetornameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/craetorTV"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ffffff"
+                android:textSize="22dp"
+                android:layout_alignTop="@+id/craetorTV"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listdetail_RV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:layout_below="@+id/detailRL"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
