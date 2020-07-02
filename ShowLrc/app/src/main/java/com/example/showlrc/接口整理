@@ -1,0 +1,87 @@
+ip:192.168.1.108            18650859926  密码1234
+
+发送验证码       /captcha/sent?phone=13xxx
+                得到参数code=200即发送成功
+
+验证验证码       /captcha/verify?phone=13xxx&captcha=1597
+                得到参数code=200即验证成功
+
+用户登录        /login/cellphone?phone=xxx&password=yyy
+                得到code！=200 即为失败
+                account:
+                    id      用户id
+
+
+注册             /register/cellphone?phone=13xxx&password=xxxxx&captcha=1234&nickname=binary1345
+                得到code！=200 即为失败    失败原因参见msg字段
+
+                包含内容：
+                        loginType       登录状态
+                        code            验证状态，为200即正确
+                        account
+                            id      用户id（即uid），可用于获取用户相关数据
+                        profile：
+                            nickname        昵称
+                            avatarUrl       大约是用户头像
+                            backgroundUrl   个人空间背景图
+                        bindings
+                            0
+                                tokenJsonStr 其下数据中心有一字段cellphone，是绑定的手机号码
+
+
+
+用户详情        /user/detail?uid=32953014
+                包含内容：
+                    profile：
+                        nickname        昵称
+                        avatarUrl       大约是用户头像
+                        backgroundUrl   个人空间背景图
+
+用户歌单        /user/playlist?uid=32953014
+                包含内容：
+                    playlist：
+                        0/1/2/。。。。:
+                            creator:
+                                defaultAvatar   true创建者（我创建的）    false非创建者（我收藏的）
+                                //avatarUrl       创建者头像
+                                //userId          创建者用户ID
+                                //nickname        创建者用户名
+                            //description         歌单描述
+                            coverImgUrl         歌单封面
+                            trackCount          歌曲数
+                            id                  歌单id
+                            name                歌单名称
+
+
+歌单详情        /playlist/detail?id=2763629424
+                包含内容：
+                    playlist：
+                        creator:
+                            //defaultAvatar   true创建者（我创建的）    false非创建者（我收藏的）
+                            avatarUrl       创建者头像
+                            //userId          创建者用户ID
+                            nickname        创建者用户名
+                        tracks：
+                            0/1/2/....:
+                                name        歌曲名
+                                id          歌曲id
+                                ar:
+                                    0/1/2/...:
+                                        id          歌手id
+                                        name        歌手名
+                                al          歌曲出处（比如节目、电视剧）
+
+                        description         歌单描述        得到数据“null”即为无歌单描述，将歌单描述编辑框置为空或删除
+                        coverImgUrl         歌单封面        其内是一串url，可以转换为图片数据直接用，不用再申请封面地址
+                        //trackCount          歌曲数
+
+删除歌单         /playlist/delete?id=5013464397,5013427772
+
+
+
+新建歌单        /playlist/create?name=测试歌单
+
+
+
+对歌单删除或增加歌曲 /playlist/tracks?op=add&pid=24381616&tracks=347231           删除为del,pid是歌单id，tracks的歌曲id
+                    ( 对应把歌曲添加到 ' 我 ' 的歌单 , 测试的时候请把这里的 pid 换成你自己的, id 和 tracks 不对可能会报 502 错误)
