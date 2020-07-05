@@ -5,6 +5,10 @@
 ------
     前端：AndroidStudio
     后端:https://github.com/Binaryify/NeteaseCloudMusicApi
+引用他人源代码：
+------
+    本地音乐页面：https://www.bilibili.com/video/BV1oJ41197fi
+    歌词滚动实现：https://github.com/jsyjst/Yuan-LrcView
 当前已完成功能：
 ------
     1.本地歌曲：                     (在 localmusic-MainActivity.java中实现)
