@@ -27,4 +27,6 @@
     4.歌单详情页面：                （在 songlistdetails.java中实现）
             将歌曲加入到“我的收藏”中、从歌单内删除歌曲
             判断用户权限(不能对收藏歌单内的歌曲进行删除操作）
-            
+ 成品演示：
+------
+https://www.bilibili.com/video/BV1Vi4y1V7s4
