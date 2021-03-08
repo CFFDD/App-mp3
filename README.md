@@ -1,6 +1,4 @@
-# App-mp3
-------
-（移动开发课程综合实验作品）
+# 一个音乐播放器app
 当前更新至 finish_resolvesomeproblem 分支
 ======
 基于
